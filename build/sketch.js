@@ -118,12 +118,12 @@ function mouseClickAndHold()
     {
         if(mouseX > innerWheelSprite.position.x)
         {
-            angle -= 1;
+            angle += 1;
             innerWheelSprite.rotation++;
         }
         else
         {
-            angle += 1;
+            angle -= 1;
             innerWheelSprite.rotation--;
         }
 
